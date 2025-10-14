@@ -1,4 +1,24 @@
-# Logs
+# ========================
+# ⚙️ Node / Vite / React
+# ========================
+node_modules
+dist
+dist-ssr
+vite.config.ts.timestamp-*
+*.local
+
+# ========================
+# 🔐 Environment Variables
+# ========================
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# ========================
+# 🪵 Logs
+# ========================
 logs
 *.log
 npm-debug.log*
@@ -7,18 +27,34 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
+# ========================
+# 🧠 Editor Configs
+# ========================
+.vscode/
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# ========================
+# 🧩 TypeScript
+# ========================
+*.tsbuildinfo
+
+# ========================
+# 🧰 Build / Cache Artifacts
+# ========================
+.cache/
+.parcel-cache/
+coverage/
+*.pid
+*.seed
+*.pid.lock
+
+# ========================
+# 🪟 OS Specific
+# ========================
+.DS_Store
+Thumbs.db
